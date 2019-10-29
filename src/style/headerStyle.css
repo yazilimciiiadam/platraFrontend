@@ -1,0 +1,7 @@
+.headerContainer{
+    background-color: #000447;
+    height: 300px;
+    box-shadow: 0 5px 10px -5px #333;
+    border-bottom: 5px solid #ff8229;
+    margin-bottom: 10px;
+}

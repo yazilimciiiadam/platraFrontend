@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+.appButton{
+    width: 150x;
+    margin:10px;
+    background-color: #8fc7ff;
+    color: white;
+    font-size: 13px;
+}
+.appButton:hover{
+    box-shadow: 0 0 10px #333;
+    color:white;
+    
+}
+.appButton:focus{
+    outline: white;
+    
+}

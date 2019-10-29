@@ -1,0 +1,10 @@
+.tableItem{
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #595959;
+}
+.tableItem:hover{
+    background-color: #8fdaff;
+}

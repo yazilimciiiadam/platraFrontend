@@ -1,0 +1,120 @@
+.operationContainer{
+    margin-bottom: 30px;
+}
+.dropdown-toggle::after {
+    content:none;
+}
+.filterContainer{
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0 0 5px #adadad;
+    
+}
+.operationButton{
+  width: 170px;
+  margin:10px;
+  background-color: #ff8229;
+  color: white;
+  outline: none;
+  font-size: 14px;
+  
+}
+.operationButton:hover{
+  box-shadow: 0 0 10px #333;
+  color:white;
+}
+
+.applyButton{
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #78bbff;
+  color: white;
+  width: 100px;
+  border-radius: 20px;
+  
+}
+
+
+.sortingContainer{
+    width: 170px;
+    height: 150px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    box-shadow: 0 0 5px #adadad;
+}
+.sortingContainer a {
+    cursor: pointer;
+    color: black;
+}
+.sortingContainer a:hover {
+    background-color: #8fc7ff;
+    color: white;
+    font-size: 20px;
+}
+.rangeSlider{
+    width: 200px;
+}
+.sliderText{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    display: block;
+}
+.rangeValue{
+    display: inline;
+    font-size: 12px;
+    border:0.5px solid #adadad;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+input[type=range] {
+    display: inline;
+    -webkit-appearance: none;
+    width: 250px;
+    margin: 13.8px 0;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    height: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px whitesmoke, 0px 0px 1px whitesmoke;
+    background: #8fc7ff;
+    border-radius: 3px;
+    border: 0.2px solid #c5d0e0;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #c5d0e0, 0px 0px 1px #c5d0e0;
+    border: 1px solid #8fc7ff;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background: #8fc7ff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+  }
+  input[type=range]::-moz-range-track {
+    height: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px whitesmoke, 0px 0px 1px whitesmoke;
+    background: #8fc7ff;
+    border-radius: 3px;
+    border: 0.2px solid #c5d0e0;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #c5d0e0, 0px 0px 1px #c5d0e0;
+    border: 1px solid #8fc7ff;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background: #8fc7ff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+  }
+  
